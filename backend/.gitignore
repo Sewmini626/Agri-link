@@ -1,0 +1,42 @@
+# ─── Laravel / PHP ────────────────────────────────────────────────────────────
+/vendor/
+/node_modules/
+
+# ─── Environment & Secrets ────────────────────────────────────────────────────
+.env
+.env.backup
+.env.production
+.env.*.local
+
+# ─── Compiled / Cache ─────────────────────────────────────────────────────────
+/bootstrap/cache/*.php
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/testing/
+/storage/framework/views/
+/storage/logs/
+*.log
+
+# ─── Testing ──────────────────────────────────────────────────────────────────
+/coverage/
+.phpunit.result.cache
+.phpunit.cache/
+
+# ─── Build Artifacts ──────────────────────────────────────────────────────────
+/public/hot
+/public/storage
+/public/build/
+
+# ─── IDE / OS ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.swp
+
+# ─── Misc ─────────────────────────────────────────────────────────────────────
+*.zip
+*.tar.gz
+neon_test.php
+check_mongo.php

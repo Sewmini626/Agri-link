@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@200;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors - Premium White/Light Theme */
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --accent: #10b981;
+  --text-primary: #111827;
+}
+
+body {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+    "Inter", "Segoe UI", system-ui, sans-serif;
+  font-weight: 300;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', "SF Pro Display", -apple-system, BlinkMacSystemFont,
+    "Inter", "Outfit", system-ui, sans-serif;
+  font-weight: 400;
+}
+
+.font-sinhala {
+  font-family: 'Noto Sans Sinhala', sans-serif;
+  font-weight: 200;
+  /* ExtraLight */
+}
